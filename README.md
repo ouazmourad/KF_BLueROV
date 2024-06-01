@@ -2,10 +2,6 @@
 #### <div align="center">A comprehensive solution for underwater navigation using BlueROV2.</div>
 #### <div align="center">This repository processes DVL (Doppler Velocity Logs) sensor data to accurately determine the robot's position via a Kalman Filter.</div>
 
-<div align="center">
-       <img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png" width="50%">
-       <img src="https://waterlinked.com/wp-content/uploads/2020/03/DSC04478_1600_web.jpg" width="40%">
-</div><br>
 
 <div align="center">We subscribe to <a href="https://waterlinked.github.io/docs/dvl/dvl-protocol/">DVL sensor data</a>
 and publish navigation information in ROS messages of type <a href="http://docs.ros.org/en/melodic/api/nav_msgs/html/msg/Odometry.html">nav_msgs/Odometry.msg</a>.</div>
